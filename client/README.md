@@ -1,18 +1,83 @@
-# React + Vite
+# Hassan Estate - Real Estate Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern full-stack real estate application built with the MERN stack (MongoDB, Express, React, Node.js).
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Property Search**: Search and filter real estate listings
+- **User Authentication**: Sign in and account management
+- **Responsive Design**: Mobile-friendly interface with Tailwind CSS
+- **Home & About Pages**: Informative landing pages
+- **Icon Integration**: Font Awesome icons for enhanced UI
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- **Frontend**: React.js, React Router DOM, Tailwind CSS
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Icons**: React Icons (Font Awesome)
 
-Note: This will impact Vite dev & build performances.
+## Project Structure
 
-## Expanding the ESLint configuration
+```
+real-estate/
+├── client/                 # React frontend
+│   └── src/
+│       └── components/
+│           └── Header.jsx  # Navigation header
+├── server/                 # Node/Express backend
+└── README.md
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- MongoDB
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+
+```bash
+git clone <repository-url>
+cd real-estate
+```
+
+2. Install dependencies
+
+```bash
+# Frontend
+cd client
+npm install
+
+# Backend
+cd ../server
+npm install
+```
+
+### Running the Application
+
+```bash
+# Start frontend (from client directory)
+npm start
+
+# Start backend (from server directory)
+npm start
+```
+
+## Pages
+
+- **Home** (`/`) - Landing page
+- **About** (`/about`) - About page
+- **Sign In** (`/sign-in`) - User authentication
+
+## Components
+
+- **Header** - Navigation bar with search functionality and links
+
+## License
+
+This project is licensed under the MIT License.
