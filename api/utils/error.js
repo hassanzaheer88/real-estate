@@ -1,8 +1,8 @@
 // for creating manual error and send as a response.
 
-// export const errorHandler = (statusCode, message) => {
-//   const error = new Error();
-//   error.statusCode = statusCode;
-//   error.message = message;
-//   return error;
-// };
+export const errorHandler = (statusCode, message) => {
+  const error = new Error();
+  error.statusCode = statusCode;
+  error.message = message;
+  return error;
+};
